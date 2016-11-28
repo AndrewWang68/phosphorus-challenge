@@ -1,8 +1,12 @@
 package fasta_unscrambler;
 
 import java.util.Comparator;
+
 /**
- * Created by Andrew on 11/28/16.
+ * Class that is a data structure that stores read2 from longestOverlap (second
+ * string whose prefix overlaps with read1's suffix). getString() returns the
+ * string sequence, and getOverlap() returns the number of letters in prefix
+ * that overlaps with a specific read1.
  */
 public class Read2Overlap implements Comparable<Read2Overlap> {
     String read2;

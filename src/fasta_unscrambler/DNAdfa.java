@@ -6,11 +6,17 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Andrew on 11/28/16.
+ * Class that takes read2 sequence as string and allows efficient search for
+ * overlap between a read1 suffix in the prefix of the read2 sequence.
+ *
+ * longestPrefixEqualToSuffixOf(String read1) returns the longest prefix
+ * of the original string that matches a suffix of read1.
  */
 public class DNAdfa {
+    // Creates DFA to implement Knuth-Morris_Pratt algorithm
     private Map<Character, List<Integer>> dfa;
     public static char[] DNA_NUCLEOTIDES = new char[]{'A', 'T', 'C', 'G'};
+
     public DNAdfa(String sequence) {
         if (sequence.isEmpty()) {
             throw new IllegalArgumentException("DNAdfa string must have positive length");
