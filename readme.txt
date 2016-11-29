@@ -28,5 +28,5 @@ $ cd out/production/Phosphorus
 $ java fasta_unscrambler/SequenceUnscrambler lambda_scramble.fa > output.fa
 
 output.fa matches the lambda_virus.fa file given in the coding challenge.
-The program takes about 1 minute to run.
+The program takes about 1 minute to run on my computer.
 
