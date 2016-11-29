@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="030436a4-393e-4e77-9fa7-3bfd71dbe0ca" name="Default" comment="" />
+    <list default="true" id="030436a4-393e-4e77-9fa7-3bfd71dbe0ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Phosphorus/fasta_unscrambler/SequenceUnscramblerTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscramblerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Phosphorus/fasta_unscrambler/SequenceUnscrambler.class" afterPath="$PROJECT_DIR$/out/production/Phosphorus/fasta_unscrambler/SequenceUnscrambler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phosphorus.iml" afterPath="$PROJECT_DIR$/Phosphorus.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java" afterPath="$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java" />
+    </list>
     <ignored path="Phosphorus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,17 +32,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SequenceUnscrambler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SequenceUnscrambler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+            <state relative-caret-position="115">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3184#3185#0" expanded="true" />
-                <element signature="e#3243#3244#0" expanded="true" />
-                <element signature="e#3274#3275#0" expanded="true" />
-                <element signature="e#3318#3319#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequenceUnscramblerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscramblerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,7 +59,7 @@
       <file leaf-file-name="SequenceCombiner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceCombiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="930">
               <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,8 +81,8 @@
       <file leaf-file-name="ValidSequenceFinder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/ValidSequenceFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+            <state relative-caret-position="274">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,13 +91,10 @@
       <file leaf-file-name="DNAdfa.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/DNAdfa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1766#1767#0" expanded="true" />
-                <element signature="e#1816#1817#0" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +106,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -111,7 +130,9 @@
         <option value="$PROJECT_DIR$/src/fasta_unscrambler/SequenceCombiner.java" />
         <option value="$PROJECT_DIR$/src/fasta_unscrambler/ValidSequenceFinder.java" />
         <option value="$PROJECT_DIR$/src/fasta_unscrambler/DNAdfa.java" />
+        <option value="$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscramblerTest.groovy" />
         <option value="$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java" />
+        <option value="$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscramblerTest.java" />
       </list>
     </option>
   </component>
@@ -120,6 +141,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -151,6 +179,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
@@ -180,10 +212,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,8 +221,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
-  <component name="RunManager" selected="Application.SequenceBuilder">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fasta_unscrambler" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SequenceUnscramblerTest.wrongDNA">
     <configuration default="false" name="SequenceConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SequenceConnector" />
@@ -238,6 +278,58 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Phosphorus" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SequenceUnscramblerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fasta_unscrambler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Phosphorus" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fasta_unscrambler" />
+      <option name="MAIN_CLASS_NAME" value="fasta_unscrambler.SequenceUnscramblerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SequenceUnscramblerTest.wrongDNA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fasta_unscrambler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Phosphorus" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fasta_unscrambler" />
+      <option name="MAIN_CLASS_NAME" value="fasta_unscrambler.SequenceUnscramblerTest" />
+      <option name="METHOD_NAME" value="wrongDNA" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -654,21 +746,28 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.SequenceConnector" />
       <item index="1" class="java.lang.String" itemvalue="Application.SequenceBuilder" />
       <item index="2" class="java.lang.String" itemvalue="Application.SpaceRemover" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SequenceUnscramblerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SequenceUnscramblerTest.wrongDNA" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.SequenceBuilder" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SpaceRemover" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SequenceConnector" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SequenceUnscramblerTest.wrongDNA" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SequenceUnscramblerTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SequenceBuilder" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SpaceRemover" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SequenceConnector" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -679,12 +778,45 @@
       <updated>1479914460663</updated>
       <workItem from="1479914463393" duration="9766000" />
       <workItem from="1480129379545" duration="10732000" />
-      <workItem from="1480366483399" duration="9441000" />
+      <workItem from="1480366483399" duration="9943000" />
+      <workItem from="1480380590886" duration="3100000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SequenceUnscramblerTest - 2016.11.28 at 21h 13m 36s.xml">
+      <configuration name="SequenceUnscramblerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest - 2016.11.28 at 21h 14m 15s.xml">
+      <configuration name="SequenceUnscramblerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest - 2016.11.28 at 21h 14m 36s.xml">
+      <configuration name="SequenceUnscramblerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest - 2016.11.28 at 21h 22m 55s.xml">
+      <configuration name="SequenceUnscramblerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest - 2016.11.28 at 21h 23m 26s.xml">
+      <configuration name="SequenceUnscramblerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest_wrongDNA - 2016.11.28 at 21h 24m 39s.xml">
+      <configuration name="SequenceUnscramblerTest.wrongDNA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest_wrongDNA - 2016.11.28 at 21h 26m 11s.xml">
+      <configuration name="SequenceUnscramblerTest.wrongDNA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest_wrongDNA - 2016.11.28 at 21h 30m 18s.xml">
+      <configuration name="SequenceUnscramblerTest.wrongDNA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest_wrongDNA - 2016.11.28 at 21h 30m 44s.xml">
+      <configuration name="SequenceUnscramblerTest.wrongDNA" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SequenceUnscramblerTest_wrongDNA - 2016.11.28 at 21h 31m 46s.xml">
+      <configuration name="SequenceUnscramblerTest.wrongDNA" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29939000" />
+    <option name="totallyTimeSpent" value="33541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="704" extended-state="6" />
@@ -697,8 +829,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31181103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31181103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -730,7 +862,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fasta_unscrambler/ValidSequenceFinder.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -739,71 +885,67 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SequenceConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SequenceBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpaceRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SequenceConnector.java">
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceCombiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="930">
+          <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/Read2Overlap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lambda_virus_no_spaces.fa">
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/ValidSequenceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SequenceConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        <state relative-caret-position="705">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SequenceBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/DNAdfa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="189" column="5" selection-start-line="148" selection-start-column="4" selection-end-line="189" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SequenceConnector.java" />
+    <entry file="file://$PROJECT_DIR$/src/SequenceBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/SpaceRemover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/Read2Overlap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SequenceConnector.java" />
+    <entry file="file://$PROJECT_DIR$/lambda_virus_no_spaces.fa" />
+    <entry file="file://$PROJECT_DIR$/src/SequenceConnector.java" />
+    <entry file="file://$PROJECT_DIR$/src/SequenceBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/Read2Overlap.class" />
     <entry file="file://$PROJECT_DIR$/src/SpaceRemover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -822,8 +964,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceCombiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="930">
           <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/DNAdfa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscramblerTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -832,35 +1002,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/ValidSequenceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        <state relative-caret-position="274">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/DNAdfa.java">
+    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscramblerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fasta_unscrambler/SequenceUnscrambler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+        <state relative-caret-position="525">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3184#3185#0" expanded="true" />
-            <element signature="e#3243#3244#0" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3318#3319#0" expanded="true" />
           </folding>
         </state>
       </provider>

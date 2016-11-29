@@ -1,4 +1,4 @@
-The fasta_unscrambler package, written in Java, allows the user to parse and
+The fasta_unscrambler package, written in Java (Java 8), allows the user to parse and
 unscramble a valid fasta file of DNA subsequences.
 
 To accomplish this task, I used an algorithm to compute the longest overlap

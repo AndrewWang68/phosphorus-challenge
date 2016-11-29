@@ -54,7 +54,18 @@ public class SequenceUnscrambler {
         this.combinedSequence = combinedSequence.getCombinedSequence();
     }
 
-    // Parses a fasta file that is in the fien format
+    // For testing purposes
+    public SequenceUnscrambler(String[] sequences) {
+        this.allSequences = new HashSet<>(Arrays.asList(sequences));
+        ValidSequenceFinder interpretedSequences = new ValidSequenceFinder(allSequences);
+        this.wrongSequences = interpretedSequences.getWrongSequences();
+        this.validOverlaps = interpretedSequences.getValidOverlaps();
+
+        SequenceCombiner combinedSequence = new SequenceCombiner(validOverlaps);
+        this.combinedSequence = combinedSequence.getCombinedSequence();
+    }
+
+    // Parses a fasta file that is in the correct format
     private static Set<String> parseFastaFile(String fastaFile) {
         Set<String>  sequences = new HashSet<>();
         File file = new File(fastaFile);
