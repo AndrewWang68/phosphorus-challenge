@@ -11,6 +11,7 @@ overlap possible from one sequence to another, although in some cases, there
 were other possible overlaps. It is possible that a user in the future
 may want to consider other possibilities. The program also finds the wrong 
 sequences (those that did not signficantly overlap with any other sequence).
+The wrong sequence I found in lambda_virus.fa was sequence 908.
 
 To unscramble sequences from a fasta file, a client would use the class
 SequenceUnscrambler:
@@ -27,3 +28,5 @@ $ cd out/production/Phosphorus
 $ java fasta_unscrambler/SequenceUnscrambler lambda_scramble.fa > output.fa
 
 output.fa matches the lambda_virus.fa file given in the coding challenge.
+The program takes about 1 minute to run.
+
